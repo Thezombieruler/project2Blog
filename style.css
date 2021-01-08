@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+body  {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+a:hover {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 2px 2px 15px 10px #FFFFFF;
+    box-shadow: 2px 2px 15px 10px #FFFFFF;
+}
+p  {
+    color: #FFFFFF;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #FFFFFF;
+}
+h1  {
+    color: #000DFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 1px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 900px;
+    font-size: 100px;
+    margin-left: 277px;
+    background-color: #00FF04;
+}
+h2  {
+    color: #FF00ED;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 58px;
+    border: medium double #FFFFFF;
+    border-radius: 6px;
+    background-color: #FFED00;
+    margin-left: 277px;
+    margin-right: 250px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 600px;
+    text-align: center;
+}
+img {
+    border-radius: 55;
+    border: medium double #FFFFFF;
+}
+ul  {
+    color: #FF0004;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    border: medium solid #00FF24;
+    background-color: #00F3FF;
+    margin-right: 950px;
+    padding: 10px 30px;
+}
+ul ol {
+    width: 200px;
+    margin-top: 12px;
+    margin-right: 0px;
+    margin-left: 0;
+    margin-bottom: 12px;
+    min-width: 0px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+ol  {
+    color: #00832B;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: oblique;
+    font-weight: bold;
+    border: medium groove #D000FF;
+    background-color: #5DCFFF;
+    padding: 10px 50px;
+    margin-right: 20px;
+}
+table {
+    background-color: #33FF3D;
+    color: #000000;
+    border: thick double #002CFF;
+    width: 900px;
+}
+tbody tr td {
+    border: thin solid #E8FF41;
+    margin-top: 100px;
+}
+tr td img {
+    border-radius: 50px 50px;
+    border: thick none #FF0004;
+}
+tbody tr th {
+    background-color: #FFFFFF;
+}
+a:link , a:visited{
+    color: #FFFD00;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #FFFFFF;
+    background-color: #00930C;
+    border: thick ridge #FFFFFF;
+}
+a:active {
+    width: 30px;
+    height: 5px;
+    background-color: #FCFCFC;
+}
